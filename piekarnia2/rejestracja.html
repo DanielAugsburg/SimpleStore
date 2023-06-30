@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styleRejestracja.css">
+    <title>Rejestracja</title>
+</head>
+<body>
+    <div class="bg" aria-hidden="true">
+      <div class="bg__dot"></div>
+      <div class="bg__dot"></div>
+    </div>
+    <form method="post" action="rejestracja.php">        
+        <input type="text" name="imie" placeholder="Imie" ></input>
+        
+        <input type="text" name="nazw" placeholder="Nazwisko"></input>
+         
+        <input type="text" name="nick" placeholder="Nickname"></input>
+        
+        <input type="email" name="email" placeholder="E-mail" ></input>
+        
+        <input type="number" oninput="maxLengthCheck(this)" min="100000000" max="999999999" maxlength="9" name="telefon" required placeholder="Telefon"></input>
+        
+        <script>
+            function maxLengthCheck(object)
+            {
+              if (object.value.length > object.maxLength)
+                object.value = object.value.slice(0, object.maxLength)
+            }
+          </script>
+        <input type="password" name="passwd" placeholder="Hasło"></input>
+        <div class="belka"></div>
+        <input type="submit"></input>
+        <button onclick="location.href='glowna.php'">Anuluj</button>
+    </form>
+</body>
+</html>

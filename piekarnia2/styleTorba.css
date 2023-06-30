@@ -1,0 +1,255 @@
+body{
+    background-image: url('img/198748418_l_normal_none.jpg');
+    background-size: 120%;
+    
+    margin: 0;
+    
+
+}
+
+.container{
+    width: 94%;
+    margin: 0 auto;
+    
+    
+
+}
+@media (min-width: 768px){
+    .container{
+        width: 720px;
+    }
+}
+@media (min-width: 1024px){
+    .container{
+        width: 960px;
+    }
+}
+@media (min-width: 1440px){
+    .container{
+        width: 1690px;
+        
+    }
+    h2{
+        font-family: Century Gothic;
+        font-size: 50px;
+        color: #cf44ac;
+        padding-top: 30px;
+        text-align: center;
+        
+    }
+    .Rejestracja
+    {
+        
+    clear:right;
+	size: 100px;
+	transition-duration: 0.4s;
+	padding: 10px;
+	border-radius: 12px;
+	display: block;
+	cursor: pointer;
+	float:right;
+    }
+    .torbabtn
+{
+	clear:right;
+	size: 100px;
+	transition-duration: 0.4s;
+	padding: 10px;
+	border-radius: 12px;
+	display: block;
+	cursor: pointer;
+	float:right;
+}   
+    .przyciski
+{	
+	text-align: center;
+	margin-left: 475px;
+	height: 65px;
+	width: 40%;
+	background-color: transparent;
+	size: 100px;
+	transition-duration: 0.4s;
+	padding: 1px;
+	border-radius: 12px;
+    float: left;
+	
+}
+.rozwijane {
+    position: relative;
+    display: inline-block;
+    font-size: 140%;
+    cursor: pointer;
+}
+.lista {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    text-align: left;
+}
+
+.rozwijane:hover .lista {
+    display: block;
+    cursor: pointer;
+}
+.rozwijane:hover .lista {
+    display: block;
+    cursor: pointer;
+}
+.button {
+    
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 60px;
+    
+}
+
+
+.button:hover {
+    background-color: rgb(226, 122, 200);
+}
+input,button{
+    background:linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.10),
+        rgba(255, 255, 255, 0.45)
+    );
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0px 8px 24xpx 0 rgba(255, 255, 255, 0.3);
+    color: #cf44ac;
+    font-size: 24px;
+    padding-top: 10px;
+    margin-top: 10px;
+    font-family: Century Gothic;
+    
+
+}
+
+form {
+    background:linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.10),
+        rgba(255, 255, 255, 0.45)
+    );
+    margin-left: -400px;
+    margin-top: 100px;
+    
+    border-radius: 15px;
+    box-shadow: 0px 8px 24xpx 0 rgba(255, 255, 255, 0.3);
+    max-width: 300px;
+    padding: 36px 24px;
+    text-align: center;
+    font-family: Century Gothic;
+}
+::placeholder{
+    text-align: center;
+    font-family: Century Gothic;
+}
+table{
+    border: 30px solid #4b2b02;
+    border-collapse: collapse;
+    width: 756px;
+    margin-top: 50px;
+	font-family: sans-serif;
+	background:linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.10),
+        rgba(255, 255, 255, 0.45)
+    );
+    text-align: center;
+	padding-bottom: 30px;
+	text-shadow: 0 0 1px #000;
+}
+
+
+input {
+    background:linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.10),
+        rgba(255, 255, 255, 0.45)
+    );
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0px 8px 24xpx 0 rgba(255, 255, 255, 0.3);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    padding: 12px 24px;
+}
+
+
+table, td, tr
+{
+    margin-left: 50px;
+    border:solid;
+}
+table
+{
+    float:left;
+}
+table input
+{
+    float:left;
+    margin-left: 50px;
+}
+input[type=submit]
+{
+float:left;
+}
+#btnczysc
+{
+    float:left;
+    margin-top:30px;
+    margin-left: 480px;
+}
+input[type=number]
+{
+text-align:center;
+}
+#test
+{
+  width: 150px;
+  height: 150px;  
+}
+#wysylka
+{   
+    float:left;
+    margin-top: 200px;
+    position: absolute;
+    margin-right: 200px;
+    border: 3px solid;
+    border-radius: 25px;
+    margin-left: 950px;
+    text-align: center;
+}
+#wysylka input
+{
+    width: 200px;
+    margin-left: 10px;
+}
+#btnpolicz
+{
+    clear:both;
+}
+#btnwysylka
+{
+    margin-top: 30px;
+    margin-left:200px;
+}
+
+
+
+footer
+{
+	color: #cf44ac;
+    font-family: Century Gothic;
+	text-align: center;
+	clear: left;	
+}
+
+}
